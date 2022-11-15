@@ -1,0 +1,41 @@
+@import'./mixsin','./variebles','./normalize';
+
+
+/*GLOBAL START*/
+
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*GLOBAL END*/ 
+.todo{
+    &__list{
+        width: 600px;
+    }
+    &__header{
+        width: 100%;
+        display: flex;
+    }
+    &__input{
+        flex: 1;
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    &__btn{
+        font-size: 18px;
+        padding: 5px;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        font-size: 24px;
+        &-text{
+            flex: 1;
+        }
+    }
+}
